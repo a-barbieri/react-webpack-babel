@@ -7,6 +7,7 @@ configure({ adapter: new Adapter() });
 
 describe('app', () => {
   it('renders without crashing', () => {
+  	console.log(process.env.FOO);
     mount(<Routes />);
   });
 });

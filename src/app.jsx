@@ -10,6 +10,9 @@ const App = () => (
   <div className='App'>
     <Navigation/>
     <div>
+    	dotenv-webpack should output a variable --> {process.env.FOO}
+    </div>
+    <div>
       <h1>It Works!</h1>
       <p>This React project just works including <span className={styles.redButton}>css-module</span> local styles.</p>
       <p>Enjoy!</p>
